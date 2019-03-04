@@ -1,0 +1,10 @@
+#Overview of Java 
+
+1.1 Java composition
+  JRE(Java Runtime Environment)
+      including Core API, Integrated API, User Interface API, Publishing Technology and Java Virtual Machine
+  JDK(Java Developer's Kit)
+      including Including development tools（involve JRE）, demos and samples, source codes
+  API(International Programming Interface)
+  IDE(Intergrated Development Environment)
+  
