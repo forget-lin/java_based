@@ -1,0 +1,30 @@
+3_ Data Type and Opera
+
+  3_1_Comments
+  
+    3_1_1_Single-Line Comments and Multiline Comments
+        //this is a single-line commentary
+        /* this is a mulitline commentary */
+        document{codes/03/3-1/CommentTest.java}
+      
+    3_1_2_Create Document Annotations and API Interface Files
+        /**
+          this is a ducument commentary
+        */
+
+        open cmd and enter command：
+          javadoc -d<directory> -windowtitle<title> -doctitle<title> -header<title> Test*.java 
+          Test*.java is used to match all class document with Test.
+          document{codes/03/3-1/Test.java
+                   codes/03/3-1/TestJavadoc.java}
+
+    3_5_3_Automatic Promotion of Expression Type
+          Promotion Rules：
+          1.all of byte,short and char type will promote to int type.
+          2.The entire arithmetic expression will be raised to 
+            the same level as the highest-level operand of the current expression.               
+          document{codes/03/3-1/AutoPromote.java}
+
+    homework：document{codes/03/3-1/student.java,}
+                       codes/03/3-1/teacher.java,
+                       codes/03/3-1/shool.java
