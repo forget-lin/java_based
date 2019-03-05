@@ -1,3 +1,16 @@
 2_Object Oriented
   2_2 UML (Unified Modeling Language)
-  
+    UML2.0 including activity diagram,class diagram,communication diagram,component diagram,
+                     compositie structure diagram,deployment,interactive overview diagram,
+                     object diagram,package diagram,sequence diagram,sate machine diagram,
+                     timing diagram,use case diagram
+    2_2_1 use case diagram 
+          Describes a series of functions of the system. Each use case represents a functional module of the system. 
+    2_2_2 class diagram
+          Class diagrams show which entities should be included in the system and how they relate to each other.
+          Entity linkages include association, generalization, dependency.
+          Associations include aggregation and composition. 
+          Composition is more stringent,requiring the object to be composed not to be part of other classes.
+          
+          
+    
