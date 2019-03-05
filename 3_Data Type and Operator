@@ -24,7 +24,14 @@
           2.The entire arithmetic expression will be raised to 
             the same level as the highest-level operand of the current expression.               
           document{codes/03/3-1/AutoPromote.java}
-
-    homework：document{codes/03/3-1/student.java,}
-                       codes/03/3-1/teacher.java,
-                       codes/03/3-1/shool.java
+          
+    3_7_8_Combination and Priority of Operators
+    
+    
+    
+    
+    
+    
+    homework：1.document{codes/03/3-1/hwStudent.java,}
+                       codes/03/3-1/hwTeacher.java,
+                       codes/03/3-1/hwShool.java
