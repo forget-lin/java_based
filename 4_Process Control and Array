@@ -1,0 +1,10 @@
+4_Process Control and Array
+        4_6_1 Array Variables
+            case:   int[] b = new int[5];
+                    int[] a = {5,7,10};
+                    //At this point, the length of the b array is 5 and the length of A is 3.
+                    b=a;
+                    //At this point,  b.length is 3 and a.length is 3 
+                    because of both array variables point to the same array in memory.
+                    This creates the illusion that the length of the array changes.
+        4_6_6 Examples of Array Usage
