@@ -20,18 +20,34 @@
 
     3_5_3_Automatic Promotion of Expression Type
           Promotion Rules：
-          1.all of byte,short and char type will promote to int type.
+          1.All of byte,short and char type will promote to int type.
           2.The entire arithmetic expression will be raised to 
             the same level as the highest-level operand of the current expression.               
           document{codes/03/3-1/AutoPromote.java}
           
     3_7_8_Combination and Priority of Operators
-    
-    
-    
-    
-    
-    
-    homework：1.document{codes/03/3-1/hwStudent.java,}
-                       codes/03/3-1/hwTeacher.java,
-                       codes/03/3-1/hwShool.java
+          Notice the short circuit of the operator，like “||”，which will skip the next judgement condition.
+          The operator priority table，the previous line always takes precedence over the next:
+                  Separator                                    [] {} () , ;
+                  Unary operator                               ++ -- ~ !
+                  Mandatory type converter                    （type）
+                  Multiplication/Division/Remainder            * / %
+                  Addition and Subtraction                     + -
+                  Shift Operators                              >> << >>>
+                  Relational Operators                         < <= > => instanceof
+                  Equivalent Operators                         == !=
+                  AND Operators                                &
+                  Bitwise XOR                                  ^
+                  Bitwise OR                                   |
+                  Condition AND                                &&
+                  Condition OR                                 ||
+                  Ternary Operator                             ? :
+                  Volution Operator                            = += -= *= /= &= |= ^= %= <<= >>= >>>=
+          Do not raly  too much on the priority of operator to control expressions.
+          
+
+ homework：  1.document{codes/03/3-1/Student.java,
+                     codes/03/3-1/Teacher.java,
+                     codes/03/3-1/Shool.java}
+             2.document {codes/03/3-1/ApproximateCircle.java}
+           
